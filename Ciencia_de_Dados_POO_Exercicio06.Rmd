@@ -100,7 +100,7 @@ funcao3(iris$Species)
 
 ```
 
-**4.  Agora, use a função `sapply` para executar sua função para todas as variáveis numéricas do banco de dados `iris`. Execute-a também para as variáveis *idade*, *nota geral*, *nota da formação geral* e *nota do componente específico* do banco de dados `enade`.**
+4.  Agora, use a função `sapply` para executar sua função para todas as variáveis numéricas do banco de dados `iris`. Execute-a também para as variáveis *idade*, *nota geral*, *nota da formação geral* e *nota do componente específico* do banco de dados `enade`.
 
 Iris:
 
@@ -128,7 +128,7 @@ sapply(select2, funcao3, na.rm = T)
 
 ```
 
-**5.  Sabemos que as variáveis do questionário do estudante do ENADE relacionadas à IES possuem duas categorias que não são úteis para nossa análise, 7 e 8 (Não sei, não se aplica). Essas categorias precisam ser substituídas por `NA's`. Faça a substituição usando uma função programada por você e a função sapply.**
+5.  Sabemos que as variáveis do questionário do estudante do ENADE relacionadas à IES possuem duas categorias que não são úteis para nossa análise, 7 e 8 (Não sei, não se aplica). Essas categorias precisam ser substituídas por `NA's`. Faça a substituição usando uma função programada por você e a função sapply.
 
 
 ```{r}
@@ -150,7 +150,7 @@ sapply(enade14[,101:142], semna)
 ## Desafio
 -------
 
-**6.  Reescreva a sua função de estatísticas descritivas. Não utilize as funções prontas do `R` mas implemente a média, a variância e o desvio padrão (mediana não) a partir de suas fórmulas.**
+6.  Reescreva a sua função de estatísticas descritivas. Não utilize as funções prontas do `R` mas implemente a média, a variância e o desvio padrão (mediana não) a partir de suas fórmulas.
 
 
 ```{r}
